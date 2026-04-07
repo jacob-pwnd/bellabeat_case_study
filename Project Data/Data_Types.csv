@@ -1,30 +1,3 @@
-﻿Set ,Import Order,Unmatched,Table,New Name,Field 1,Type 1,Field 2,Type 2,Field 3,Type 3,Field 4,Type 4,Field 5,Type 5,Field 6,Type 6,Field 7,Type 7,Field 8,Type 8,Field 9,Type 9,Field 10,Type 10,Field 11,Type 11,Field 12,Type 12,Field 13,Type 13,Field 14,Type 14,Field 15,Type 15
-to_april,1,FALSE,dailyActivity_merged,dailyactivity_to_april,Id,bigint,ActivityDate,timestamp,Total Steps,integer,Total Distance,real,Tracker Distance,real,Logged Activity,integer,Very ActiveDistance,real,ModeratelyActiveDistance,real,LightActiveDistance,real,SedentaryActiveDistance,real,VeryActiveMinutes,integer,FairlyActiveMinutes,integer,LightlyActiveMinutes,integer,SedentaryMinutes,integer,Calories,integer
-to_may,12,FALSE,dailyActivity_merged,dailyactivity_to_may,Id,bigint,ActivityDate,timestamp,Total Steps,integer,Total Distance,real,Tracker Distance,real,Logged Activity,integer,Very ActiveDistance,real,ModeratelyActiveDistance,real,LightActiveDistance,real,SedentaryActiveDistance,real,VeryActiveMinutes,integer,FairlyActiveMinutes,integer,LightlyActiveMinutes,integer,SedentaryMinutes,integer,Calories,integer
-to_april,2,FALSE,heartrate_seconds_merged,heartrate_seconds_to_april,Id,bigint,Time,timestamp,Value,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,16,FALSE,heartrate_seconds_merged,heartrate_seconds_to_may,Id,bigint,Time,timestamp,Value,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_april,3,FALSE,hourlyCalories_merged,hourlycalories_to_april,Id,bigint,ActivityHour,timestamp,Calories,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,17,FALSE,hourlyCalories_merged,hourlycalories_to_may,Id,bigint,ActivityHour,timestamp,Calories,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,18,FALSE,hourlyIntensities_merged,hourlyintensities_to_may,Id,bigint,ActivityHour,timestamp,TotalIntensity,integer,AverageIntensity,real,,,,,,,,,,,,,,,,,,,,,,
-to_april,4,FALSE,hourlyIntesnities_merged,hourlyintesnities_to_april,Id,bigint,ActivityHour,timestamp,TotalIntensity,integer,AverageIntensity,real,,,,,,,,,,,,,,,,,,,,,,
-to_april,5,FALSE,hourlySteps_merged,hourlysteps_to_april,Id,bigint,ActivityHour,timestamp,StepTotal,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,19,FALSE,hourlySteps_merged,hourlysteps_to_may,Id,bigint,ActivityHour,timestamp,StepTotal,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_april,6,FALSE,minuteCaloriesNarrow_merged,minutecaloriesnarrow_to_april,Id,bigint,ActivityMinute,timestamp,Calories,real,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,20,FALSE,minuteCaloriesNarrow_merged,minutecaloriesnarrow_to_may,Id,bigint,ActivityMinute,timestamp,Calories,real,,,,,,,,,,,,,,,,,,,,,,,,
-to_april,7,FALSE,minuteIntensitiesNarrow_merged,minuteintensitiesnarrow_to_april,Id,bigint,ActivityMinute,timestamp,Intensity,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,22,FALSE,minuteIntensitiesNarrow_merged,minuteintensitiesnarrow_to_may,Id,bigint,ActivityMinute,timestamp,Intensity,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_april,8,FALSE,minuteMETsNarrow_merged,minutemetsnarrow_to_april,Id,bigint,ActivityMinute,timestamp,METs,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,24,FALSE,minuteMETsNarrow_merged,minutemetsnarrow_to_may,Id,bigint,ActivityMinute,timestamp,METs,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_april,9,FALSE,minuteSleep_merged,minutesleep_to_april,Id,bigint,date,timestamp,value,integer,logid,bigint,,,,,,,,,,,,,,,,,,,,,,
-to_may,25,FALSE,minuteSleep_merged,minutesleep_to_may,Id,bigint,date,timestamp,value,integer,logid,bigint,,,,,,,,,,,,,,,,,,,,,,
-to_april,10,FALSE,minuteStepsNarrow_merged,minutestepsnarrow_to_april,Id,bigint,ActivityMinute,timestamp,Steps,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,26,FALSE,minuteStepsNarrow_merged,minutestepsnarrow_to_may,Id,bigint,ActivityMinute,timestamp,Steps,integer,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,29,FALSE,weightLogInfo_merged,weightloginfo_to_may,Id,bigint,Date,timestamp,WeightKg,real,WeightPounds,real,Fat,integer,BMI,real,IsManual Report,boolean,LogId,bigint,,,,,,,,,,,,,,
-to_april,11,FALSE,weightLogInfo_merged,weightloginfo_to_april,Id,bigint,Date,timestamp,WeightKg,real,WeightPounds,real,Fat,integer,BMI,real,IsManual Report,boolean,LogId,bigint,,,,,,,,,,,,,,
-to_may,13,TRUE,dailyCalories_merged,dailycalories_to_may,,Thank you for looking at this. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,14,TRUE,dailyIntensities_merged,dailyintensities_to_may,,Thank you for looking at this. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,15,TRUE,dailySteps_merged,dailysteps_to_may,,Thank you for looking at this. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,21,TRUE,minuteCaloriesWide_merged,minutecalorieswide_to_may,Thank you for looking at this. There's wide data here that I am sure as heck am not logging it. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,23,TRUE,minuteIntensitiesWide_merged,minuteIntensitieswide_to_may,Thank you for looking at this. There's wide data here that I am sure as heck am not logging it. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,27,TRUE,minuteStepsWide_merged,minutestepswide_to_may,Thank you for looking at this. There's wide data here that I am sure as heck am not logging it. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-to_may,28,TRUE,sleepDay_merged,sleepday_to_may,Thank you for looking at this. This data was marked for deletion before needing to log data type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed424e94f307dcc4b6f2710258cb8a9e6343c3e46c0f4ff43862ee2dfb4d1990
+size 5562
