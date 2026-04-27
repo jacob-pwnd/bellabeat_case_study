@@ -2,8 +2,6 @@
 
 Looking at FitBit Fitness Tracker data to identify smart device growth opportunities for BellaBeat, a mostly defunct company. 
 
-Video documenting analysis will be available on 4/27 at 9:45am ET
-
 [![Watch the video](https://img.youtube.com/vi/sx3bSGaKHxM/maxresdefault.jpg)](https://youtu.be/sx3bSGaKHxM)
 
 ### [Watch Analysis on YouTube](https://youtu.be/sx3bSGaKHxM)
